@@ -7,12 +7,18 @@
 
 
 
-ages = [16, 17, 17, 14]
-#puts ages.size 
+# ages = [16, 17, 17, 14]
+# #puts ages.size 
 
-total = 0 
-ages.each do |age|
-  puts "Your age is #{age}"
-  total = total + age 
+# ages.each do |age|
+#   puts "Your age is #{age}"
+# end 
+
+
+sports = ["Soccer", "Basketball", "Tennis" ]
+# #puts sports.size 
+counter = 1 
+sports.each do |sport|
+  puts "Sport #{counter} : #{sport}"
+  counter = counter + 1 
 end 
-puts total 
